@@ -42,4 +42,6 @@ a.add_item("eggs", 78)
 b = AmazonTransaction.new 
 b.add_item("waffles", 21)
 
+puts AmazonTransaction.order_history
+
 
